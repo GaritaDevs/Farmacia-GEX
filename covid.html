@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Farmacia GEX</title>
+
+    <link rel="icon" href="./img/favicon.ico">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/6df3345e67.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="./css/covid.css" rel="stylesheet">
+    <link href="./css/reglas.css" rel="stylesheet">
+    <link href="./css/lightbox.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Comienza la pagina WEB -->
+
+    <header id="bannerInfo" class="">
+        <div>
+            <div class="mt-5">
+                <iframe width="1370" height="630" src="https://www.youtube.com/embed/Hh2pASHNY8g"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg fixed-top fondoNav">
+        <div class="container">
+            <a class="navbar-brand logo" href="web.html">Farmacia GEX
+            </a>
+
+            <!-- MENU HAMBURGUESA BOOSTRAP -->
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mx-auto mb-2 mb-md-0 text-center">
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link optmenu navText" aria-current="page" href="./web.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link optmenu navText" aria-current="page"
+                            href="./masInformacion.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link navText" aria-current="page" href="./app.html">Productos</a>
+                    </li>
+                    <!-- SUBMENU -->
+                    <li class="nav-item dropdown">
+                        <a data-scroll class="nav-link dropdown-toggle  navText" aria-current="page" href="#"
+                            id="desplegable1" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">Info</a>
+                        <div class="dropdown-menu text-left subMenu" aria-labelledby="desplegable1">
+                            <a class="dropdowm-item subMenuText" href="#Seguros">Seguros</a><br>
+                            <a class="dropdowm-item subMenuText" href="#Bienestar">Bienestar</a><br>
+                            <a class="dropdowm-item subMenuText" href="#covid">COVID-19</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link navText" aria-current="page" href="./marcas.html">Marcas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link navText" aria-current="page" href="./web.html">Ubicacion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link navText" aria-current="page" href="./web.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="text-center">
+                    <h1 class="tituloCovid">Informacion basíca sobre COVID-19</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="accordion mt-5 container" id="contenedorAcordeon">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button tituloCovid" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            ¿Que es COVID-19?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>La COVID-19 es la enfermedad causada por el nuevo coronavirus conocido como SARS-CoV-2.
+                                La OMS tuvo noticia por primera vez de la existencia de este nuevo virus el 31 de
+                                diciembre de 2019, al ser informada de un grupo de casos de «neumonía vírica» que se
+                                habían declarado en Wuhan (República Popular China).</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item ">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed tituloInfomacionCovid" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                            aria-controls="collapseTwo">
+                            ¿Cuales son los sintomas de la COVID-19?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Los síntomas más habituales de la COVID-19 son:<br><br>
+
+                                Fiebre
+                                Tos seca
+                                Cansancio
+                                Otros síntomas menos frecuentes y que pueden afectan a algunos pacientes:<br>
+
+                                Pérdida del gusto o el olfato
+                                Congestión nasal
+                                Conjuntivitis (enrojecimiento ocular)
+                                Dolor de garganta
+                                Dolor de cabeza
+                                Dolores musculares o articulares
+                                Diferentes tipos de erupciones cutáneas
+                                Náuseas o vómitos
+                                Diarrea
+                                Escalofríos o vértigo<br><br>
+
+
+                                Entre los síntomas de un cuadro grave de la COVID-19 se incluyen:<br><br>
+
+                                Disnea (dificultad respiratoria)
+                                Pérdida de apetito
+                                Confusión
+                                Dolor u opresión persistente en el pecho
+                                Temperatura alta (por encima de los 38° C)
+                                Otros síntomas menos frecuentes:<br><br>
+
+                                Irritabilidad
+                                Merma de la conciencia (a veces asociada a convulsiones)
+                                Ansiedad
+                                Depresión
+                                Trastornos del sueño
+                                Complicaciones neurológicas más graves y raras, como accidentes cerebrovasculares,
+                                inflamación del cerebro, estado delirante y lesiones neurales.
+                                Las personas de cualquier edad que tengan fiebre o tos y además respiren con dificultad,
+                                sientan dolor u opresión en el pecho o tengan dificultades para hablar o moverse deben
+                                solicitar atención médica inmediatamente. De ser posible, llame con antelación a su
+                                dispensador de atención de salud, al teléfono de asistencia o al centro de salud para
+                                que puedan indicarle el dispensario adecuado.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item ">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed tituloInfomacionCovid" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                            aria-controls="collapseThree">
+                            ¿Que ocurre a las personas que contraen la COVID-19?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Entre las personas que desarrollan síntomas, la mayoría (alrededor del 80%) se recuperan
+                                de la enfermedad sin necesidad de recibir tratamiento hospitalario. Alrededor del 15%
+                                desarrollan una enfermedad grave y requieren oxígeno y el 5% llegan a un estado crítico
+                                y precisan cuidados intensivos.<br><br>
+
+                                Entre las complicaciones que pueden llevar a la muerte se encuentran la insuficiencia
+                                respiratoria, el síndrome de dificultad respiratoria aguda, la septicemia y el choque
+                                septicémico, la tromboembolia y/o la insuficiencia multiorgánica, incluidas las lesiones
+                                cardíacas, hepáticas y renales.<br><br>
+
+                                Rara vez, los niños pueden manifestar un síndrome inflamatorio grave unas semanas
+                                después de la infección</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="col-lg-12">
+                <div class="accordion-item ">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed tituloInfomacionCovid" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                            aria-controls="collapseFour">
+                            ¿Quien corre mayor riesgo de presentar un cuadro grave de COVID-19?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Las personas de más de 60 años y las que padecen afecciones médicas subyacentes, como
+                                hipertensión arterial, problemas cardíacos o pulmonares, diabetes, obesidad o cáncer,
+                                corren un mayor riesgo de presentar cuadros graves.<br><br>
+
+                                Sin embargo, cualquier persona, a cualquier edad, puede enfermar de COVID-19 y presentar
+                                un cuadro grave o morir. </p>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed tituloInfomacionCovid" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
+                            aria-controls="collapseFive">
+                            ¿Tiene la COVID-19 efectos a largo plazo?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Algunas personas que han padecido la COVID-19, tanto si han necesitado atención
+                                hospitalaria como si no, siguen experimentando síntomas, entre ellos fatiga y diversos
+                                síntomas respiratorios y neurológicos.
+
+                                En la OMS estamos trabajando con nuestra Red técnica mundial para la gestión clínica de
+                                la COVID-19, así como con investigadores y grupos de pacientes de todo el mundo, para
+                                diseñar y llevar a cabo estudios que vayan más allá del estadio inicial agudo de la
+                                enfermedad, con el fin de determinar el porcentaje de pacientes que sufren efectos a
+                                largo plazo, el tiempo que persisten y la razón por la que se producen. Estos estudios
+                                se utilizarán para desarrollar nuevas orientaciones de cara a la atención de los
+                                pacientes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-5">
+                    <h2 class=" accordion-header" id="headingSix">
+                        <button class="accordion-button collapsed tituloInfomacionCovid" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false"
+                            aria-controls="collapseSix">
+                            ¿Como podemos protegernos a nosotros mismos y a los demas si no sabemos quien esta
+                            infectado?
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Protéjase adoptando algunas precauciones sencillas, como mantener el distanciamiento
+                                físico; utilizar mascarilla, especialmente cuando no se pueda mantener el
+                                distanciamiento; mantener las habitaciones bien ventiladas; evitar las aglomeraciones y
+                                el contacto estrecho con otras personas; lavarse las manos de forma periódica; y toser
+                                cubriéndose con el codo flexionado o con un pañuelo. Consulte las recomendaciones que se
+                                den a nivel local en su lugar de residencia y trabajo. ¡Hágalo todo!</p>
+
+                            <!-- VIDEO CORONA -->
+                            <section id="s2" class="container-fluid fondo2 text-center">
+                                <div class="row">
+                                    <div id="container">
+                                        <div class="pt-2"></div>
+                                        <button id="boton" onclick="ejecutar('video','youtube')"
+                                            class="cursor btn btn-info">Ver
+                                            vídeo</button>
+                                    </div>
+
+                                    <div id="video" class="lightbox" onclick="ocultar('video','youtube')">
+                                        <div class="lightbox-container">
+                                            <div class="lightbox-content">
+                                                <button onclick="ocultar('video','youtube')"
+                                                    class="lightbox-close cursor btn btn-info">
+                                                    Cerrar | ✕
+                                                </button>
+                                                <div class="video-container">
+
+                                                    <iframe id="youtube" width="960" height="540"
+                                                        src="https://www.youtube.com/embed/PYglSVc4nuo?showinfo=0"
+                                                        allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </section>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </section>
+
+
+    <section class="ftco-counter" id="section-counter">
+        <div class="container">
+            <h2 class="titulosCovid text-center">Estadísticas COVID-19</h2>
+            <div class="row pt-5">
+                <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+                    <div class="block-18 text-center">
+                        <div class="text">
+                            <strong class="number" data-number="4">0</strong>
+                        </div>
+                        <div class="text-black">
+                            <h5>Años de Pandemia</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+                    <div class="block-18 text-center">
+                        <div class="text">
+                            <strong class="number" data-number="300000">0</strong>
+                        </div>
+                        <div class="text-black">
+                            <h5>Casos las ultimas semanas</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+                    <div class="block-18 text-center">
+                        <div class="text">
+                            <strong class="number" data-number="5000">0</strong>
+                        </div>
+                        <div class="text-black">
+                            <h5>Casos por dia</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+                    <div class="block-18 text-center">
+                        <div class="text">
+                            <strong class="number" data-number="24">0</strong>
+                        </div>
+                        <div class="text-black">
+                            <h5>Farmacias ayudando</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="container-fluid text-center footerSite">
+        <div class="row">
+            <h4 class="derechosReservados col-lg-12">Derechos reservados</h4>
+            <h5 class="derechosReservados col-lg-12">2023</h5>
+        </div>
+    </footer>
+
+
+
+
+    <!-- BOOSTRAP -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script src="js/wow.min.js"></script>
+
+    <!-- activa los efectos de animacion -->
+    <script>
+        new WOW().init();
+    </script>
+
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="./js/covid.js"></script>
+
+
+
+
+</body>
+
+</html>

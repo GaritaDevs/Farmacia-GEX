@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Farmacia GEX</title>
+
+    <link rel="icon" href="./img/favicon.ico">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/6df3345e67.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link href="./css/seguros.css" rel="stylesheet">
+    <link href="./css/reglas.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Comienza la pagina WEB -->
+
+    <header id="" class="">
+
+    </header>
+
+    <nav class="navbar navbar-expand-lg fixed-top fondoNav">
+        <div class="container">
+            <a class="navbar-brand logo" href="web.html">Farmacia GEX
+            </a>
+
+            <!-- MENU HAMBURGUESA BOOSTRAP -->
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mx-auto mb-2 mb-md-0 text-center">
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link optmenu navText" aria-current="page" href="./web.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link optmenu navText" aria-current="page"
+                            href="./masInformacion.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link navText" aria-current="page" href="./app.html">Productos</a>
+                    </li>
+                    <!-- SUBMENU -->
+                    <li class="nav-item dropdown">
+                        <a data-scroll class="nav-link dropdown-toggle  navText" aria-current="page" href="#"
+                            id="desplegable1" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">Info</a>
+                        <div class="dropdown-menu text-left subMenu" aria-labelledby="desplegable1">
+                            <a class="dropdowm-item subMenuText" href="./seguros.html">Seguros</a><br>
+                            <a class="dropdowm-item subMenuText" href="./web.html">Bienestar</a><br>
+                            <a class="dropdowm-item subMenuText" href="./covid.html">COVID-19</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link navText" aria-current="page" href="./marcas.html">Marcas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link navText" aria-current="page" href="./web.html">Ubicacion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link navText" aria-current="page" href="./web.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container segurosContenedor">
+        <div class="row">
+            <div class="text-center col-lg-12 contenedorTituloSeguro">
+                <h1>Seguros Farmacia GEX</h1>
+                <h5>Recuerde que solo te damos un monto aproximado, si quieres algo mas especifico debes contactar la
+                    aseguradora directamente.</h5>
+            </div>
+
+            <div>
+                <section class="container pt-3">
+                    <div class="container row">
+
+                        <div class="col-sm-6 col-md-6 col-lg-6 cajaSeguros">
+                            <form action="" class="text-left">
+                                <div class="pb-3">
+                                    <label for="tipo" class="tituloSeguros">Tipo de Plan:</label>
+                                    <select name="tipo" id="tipo" class="input">
+                                        <option>Seleccione el tipo</option>
+                                        <option>Clasico</option>
+                                        <option>Premium</option>
+                                    </select>
+                                </div>
+                                <div class="pb-3">
+                                    <label for="txtCantidad" class="tituloSeguros">Cantidad de personas:</label>
+                                    <input type="number" id="cantidad" min="0" class="input">
+                                </div>
+                                <div class="pb-3">
+                                    <label for="seguro" class="tituloSeguros">Aseguradora:</label>
+                                    <select name="seguro" id="seguro" class="input">
+                                        <option>Seleccione su preferencia</option>
+                                        <option>ASSA</option>
+                                        <option>PALIG</option>
+                                        <option>MAPFRE</option>
+                                        <option>MediSmart</option>
+                                    </select>
+                                </div>
+                                <div class="pt-4">
+                                    <input type="button" value="Cotizar" class="btn btn-info" onclick="pago()">
+                                    <input type="button" value="Limpiar" onclick="btnLimpiar()"
+                                        class="btn btn-outline-info">
+                                </div>
+                                <div class="pt-3">
+                                    <p class="txtTotal mt-5">Monto aproximado:<output
+                                            id="txtResultadoMontoFinal"></output>
+                                    </p>
+                                    <p class="reminder"></p>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-lg-6">
+                            </p>
+                            <div class="">
+                                <div class="container text-center">
+                                    <p>
+                                        <img src="./img/logoFarmaciaFinal.png" name="thumb" id="imagenes"
+                                            class="img-fluid logoSeguro" data-aos="fade-left"
+                                            data-aos-anchor="#example-anchor" data-aos-offset="500"
+                                            data-aos-duration="500"><br><br>
+                                    </p>
+                                    <p class="pt-5">
+                                        <!-- Botones Anterior/Siguiente -->
+                                        <button class="btn btn-outline-warning" onclick="cambiar(-1)">Anterior</button>
+                                        <button class="btn btn-outline-warning" onclick="cambiar(1)">Siguiente</button>
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                </section>
+            </div>
+    </section>
+    </div>
+    </div>
+    </section>
+
+    <footer class="container-fluid text-center footerSite mt-5">
+        <div class="row">
+            <h4 class="derechosReservados col-lg-12">Derechos reservados</h4>
+            <h5 class="derechosReservados col-lg-12">2023</h5>
+        </div>
+    </footer>
+
+
+
+
+    <!-- BOOSTRAP -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <script src="js/wow.min.js"></script>
+
+    <!-- activa los efectos de animacion -->
+    <script>
+        new WOW().init();
+    </script>
+
+    <script src="./js/seguros.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+
+</body>
+
+</html>

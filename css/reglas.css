@@ -1,0 +1,250 @@
+@media (max-width: 575px) {
+    .tituloCarusel1 {
+        font-size: 31px;
+
+    }
+
+    .mapa {
+        width: 400px;
+    }
+
+    .letrasBanner {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.3em;
+        position: absolute;
+        z-index: 10;
+        width: 500px;
+        height: 270px;
+        top: 29%;
+        left: 13%;
+        margin: -110px 0 0 -100px;
+        padding: 45px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        z-index: 100;
+        text-align: center;
+    }
+
+    .tituloDosEncuesta {
+        display: none;
+    }
+
+    .tituloBanner {
+        display: none;
+    }
+
+    iframe {
+
+        width: 540px;
+        height: 300px;
+    }
+
+    .logoEncuesta {
+        width: 150px;
+        height: 150px;
+        top: 50%;
+        left: 97%;
+    }
+
+    .interaccionProductos {
+        width: 200px;
+        height: 200px;
+    }
+
+    .carousel-item {
+        margin-top: 50px;
+    }
+
+    .selectMarcas {
+        width: 300px;
+    }
+
+    .txtMarcas {
+        display: none;
+    }
+
+    .imgContenedor {
+        position: absolute;
+        z-index: 10;
+        margin-top: 51px;
+        top: 100%;
+        left: 10%;
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .tituloCarusel1 {
+        margin-top: 31px;
+        font-size: 21px;
+    }
+
+    .tituloCarusel2 {
+        margin-top: 31px;
+        font-size: 21px;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .logoEncuesta {
+        width: 190px;
+        height: 190px;
+        top: 35%;
+        left: 85%;
+    }
+
+    .tituloBanner {
+        display: none;
+    }
+
+    .subTituloBanner {
+        display: none;
+    }
+
+    .mapa {
+        width: 450px;
+    }
+
+    .tituloCarusel1 {
+        margin-top: 61px;
+        font-size: 31px;
+    }
+
+    .letrasBanner {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.3em;
+        position: absolute;
+        z-index: 10;
+        width: 500px;
+        height: 270px;
+        top: 29%;
+        left: 24%;
+        margin: -110px 0 0 -100px;
+        padding: 45px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        z-index: 100;
+        text-align: center;
+    }
+
+    .interaccionProductos {
+        width: 300px;
+        height: 300px;
+    }
+
+    .selectMarcas {
+        width: 300px;
+    }
+
+    .txtMarcas {
+        display: none;
+    }
+
+    .imgContenedor {
+        position: absolute;
+        z-index: 10;
+        margin-top: 51px;
+        top: 100%;
+        left: 30%;
+        width: 200px;
+        height: 200px;
+
+    }
+
+
+
+    iframe {
+        width: 650px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .logoEncuesta {
+        width: 200px;
+        height: 200px;
+        top: 30%;
+        left: 85%;
+    }
+
+    .tituloTablaSeguros {
+        font-size: 19px;
+    }
+
+    .mapa {
+        width: 600px;
+    }
+
+    .tituloBanner {
+        display: none;
+    }
+
+    .subTituloBanner {
+        display: none;
+    }
+
+
+    .segurosTabla {
+        padding: 20px;
+    }
+
+    .letrasBanner {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.3em;
+        position: absolute;
+        z-index: 10;
+        width: 500px;
+        height: 270px;
+        top: 29%;
+        left: 35%;
+        margin: -110px 0 0 -100px;
+        padding: 45px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        z-index: 100;
+        text-align: center;
+    }
+
+    .interaccionProductos {
+        width: 400px;
+        height: 400px;
+    }
+
+    iframe {
+        width: 870px;
+        height: 400px;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .logoEncuesta {
+        width: 250px;
+        height: 250px;
+        top: 35%;
+        left: 75%;
+    }
+
+    .mapa {
+        width: 450px;
+    }
+
+
+    .tituloTablaSeguros {
+        font-size: 23px;
+    }
+
+    .interaccionProductos {
+        width: 350px;
+        height: 350px;
+    }
+
+    iframe {
+        width: 1050px;
+        height: 500px;
+    }
+}
+
+
+@media (min-width: 1200px) {}

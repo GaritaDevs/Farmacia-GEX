@@ -1,0 +1,688 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Farmacia GEX</title>
+    <link rel="icon" href="./img/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+
+
+    <script src="https://kit.fontawesome.com/6df3345e67.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="./css/web.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/lightbox.css">
+    <link href="./css/reglas.css" rel="stylesheet">
+</head>
+
+<body id="Inicio">
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active bannerPrincipal1" data-bs-interval="10000">
+                <div>
+                    <img src="./img/carusel1.jpeg" class="d-block w-100" alt="">
+                    <div class="textCarusel1">
+                        <h1 class="tituloCarusel1 cero wow animate__animated animate__bounce animate__delay-300ms">
+                            Farmacia
+                            GEX</h1>
+                        <h4 class="tituloCarusel2 uno">Especialistas y productos de calidad</h4>
+                    </div>
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <div>
+                    <img src="./img/carusel2.jpeg" class="d-block w-100" alt="...">
+                    <div class="textCarusel2">
+                        <h1 class="tituloCarusel1 dos wow animate__animated animate__bounce animate__delay-300ms">
+                            Productos
+                            premium</h1>
+                        <h4 class="tituloCarusel2 tres">Tenemos ofertas especiales</h4>
+                        <a href="./app.html"
+                            class="btn btn-info tress wow animate__animated animate__backInRight animate__delay-300ms">Ver
+                            productos</a>
+                    </div>
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div>
+                    <img src="./img/carusel3.jpeg" class="d-block w-100" alt="...">
+                    <div class="textCarusel3">
+                        <h1
+                            class="tituloCarusel1 cuatro wow animate__animated animate__backInLeft animate__delay-300ms">
+                            Seguros
+                            Medicos</h1>
+                        <h4 class="tituloCarusel3 cinco wow animate__animated animate__backInLeft animate__delay-300ms">
+                            Trabajamos con diferentes aseguradoras para darte un mejor servicio
+                        </h4>
+                        <a href="#Seguros"
+                            class="btn btn-warning wow cincoo animate__animated animate__backInLeft animate__delay-300ms seis">Ver
+                            seguros</a>
+                    </div>
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Inicia del NAV  -->
+
+    <nav class="navbar navbar-expand-lg fixed-top fondoNav">
+
+        <div class="container">
+            <a class="navbar-brand logo" href="web.html">Farmacia GEX
+            </a>
+
+
+            <!-- MENU HAMBURGUESA BOOSTRAP -->
+
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mx-auto mb-2 mb-md-0 text-center">
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link optmenu navText siete" aria-current="page"
+                            href="#Inicio">Inicio</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link ocho optmenu navText" aria-current="page"
+                            href="#Nosotros">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link navText nueve" aria-current="page"
+                            href="#Productos">Productos</a>
+                    </li>
+
+                    <!-- SUBMENU -->
+                    <li class="nav-item dropdown">
+                        <a data-scroll class="nav-link dropdown-toggle diez navText" aria-current="page" href="#"
+                            id="desplegable1" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">Info</a>
+
+                        <div class="dropdown-menu text-left subMenu" aria-labelledby="desplegable1">
+                            <a class="dropdowm-item subMenuText once" href="#Seguros">Seguros</a><br>
+                            <a class="dropdowm-item subMenuText doce" href="#Bienestar">Bienestar</a><br>
+                            <a class="dropdowm-item subMenuText trece" href="#covid">COVID-19</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link navText catorce" aria-current="page" href="#marcas">Marcas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link navText quince" aria-current="page" href="#ubi">Ubicacion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link navText diezseis" aria-current="page"
+                            href="#Contact">Contacto</a>
+                    </li>
+                </ul>
+                <div class="langWrap d-flex">
+                    <lo class="nav-item-item">
+                        <!-- atributo language -->
+                        <a href="#" language='espanish' class="active"><img class="img-fluid bandera"
+                                src="./img/es.webp" alt="Español"></a>
+                    </lo>
+                    <lo class="nav-item-item">
+                        <!-- atributo language -->
+                        <a href="#" language='english'> <img class="img-fluid bandera" src="./img/eu.webp"
+                                alt="Ingles"></a>
+                    </lo>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Inicia la section UNO  -->
+
+    <section id="Nosotros" class="container text-center">
+        <div class="tituloSectionUno">
+            <h1 class="titulo1 pt-5 diezsiete">Quienes somos</h1>
+        </div>
+        <div class="contenedorSectionUno">
+            <div class="row contenedorCorreo">
+                <div id="envia" class="col-lg-6">
+                    <p class="pt-5 primerTitulo diezocho"><strong>Farmacia GEX </strong>es una empresa encargada en la
+                        distribucion de
+                        medicamentos <strong>premium</strong> a nivel nacional e internacional, ademas de esto
+                        trabajamos en
+                        nuestros
+                        laboratorios produciendo la mejor calidad de nuestros propios medicamentos.
+                    </p>
+                    <br>
+                    <p class="segundoTitulo dieznueve">
+                        Contamos con nuestra propia red de medicos y de laboratorios, respaldados a nivel mundial,
+                        Farmacia
+                        Gex esta ubicada de momento solo en centro america y su sede principal se encuentra en Costa
+                        Rica.<br>
+                        <a class="veinte" href="./masInformacion.html">Mas información</a>
+                    </p>
+                </div>
+                <div class="col-lg-6">
+
+                    <img src="./img/sobreNosotros.jpg" alt="Farmacia GEX" class="img-fluid sobreNosotros" id="myImg">
+                    <div id="contenedor1" class="modal">
+                        <div class="close">&times;</div>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                    </div>
+                </div>
+                <div class="hr">
+                    <hr>
+                </div>
+            </div>
+    </section>
+
+    <!-- Inicia la section Dos  -->
+
+    <section id="Productos" class="text-center">
+        <div class="container">
+            <h1 class="titulo2 veintiuno">Productos</h1>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="txtProductos veintidos">Nuestra farmacia trabaja solo con productos de calidad y de marcas
+                        conocidas
+                        a
+                        nivel mundial. La gran mayoria de productos que se venden son productos <strong>Premium</strong>
+                        Entra a
+                        nuestra seccion de productos para que puedas elegir todos los producto que necesitas.</p>
+                    <iframe src="https://embed.lottiefiles.com/animation/24343" class="interaccionProductos"></iframe>
+                    <div class="botonProductos"><a
+                            class="btnTienda veintitres btn btn-outline-info btn-lg wow animate__animated animate__headShake animate__infinite"
+                            href="./app.html">Tienda</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="hr">
+        <hr>
+    </div>
+    <!-- Inicia la section TRES  -->
+
+
+    <section id="Seguros" class="container text-center">
+        <div class="tituloSectionTres">
+            <h1 class="titulo3 veinticuatro">Seguros Medicos</h1>
+            <a href="./seguros.html" class="cotizar veinticinco">Cotizar</a>
+        </div>
+
+        <div class="row contenedorSectionTres">
+
+            <div class="col-md-6">
+                <div class="row">
+
+                    <div class="segurosTabla col-md-6 col-lg-6">
+                        <a href="https://www.palig.com/es/costa-rica" target="blank" class="caja">
+                            <i class=""></i>
+                            <h2 class="tituloTablaSeguros ">PALIG</h2>
+                            <div class="seguro veintiseiss">Seguro</div>
+                            <div class="tipo">1</div>
+                            <div>
+                                <p class="txtSeguros veintiseis">Trabajamos con la aseguradora PALIG</p>
+                                <p class="txtSeguros veintisiete">Desde el año 2000</p>
+                                <p class="txtSeguros veintiocho">Para saber mas de este seguro entre en contacto con
+                                    PALIG</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="segurosTabla col-md-6 col-lg-6">
+                        <a href="https://confiaycompara.com/" target="blank" class="caja">
+                            <i class=""></i>
+                            <h2 class="tituloTablaSeguros">MAPFRE</h2>
+                            <div class="seguro veintiseiss">Seguro</div>
+                            <div class="tipo">2</div>
+                            <div>
+                                <p class="txtSeguros treinta">Trabajamos con la aseguradora MAPFRE</p>
+                                <p class="txtSeguros treintauno">Desde el año 2010</p>
+                                <p class="txtSeguros treintados">Para saber mas de este seguro entre en contacto con
+                                    MAPFRE</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+
+
+                    <div class="segurosTabla col-md-6 col-lg-6">
+                        <a href="https://www.assanet.cr/" target="blank" class="caja">
+                            <i class=""></i>
+                            <h2 class="tituloTablaSeguros">ASSA</h2>
+                            <div class="seguro veintiseiss">Seguro</div>
+                            <div class="tipo">3</div>
+                            <div>
+                                <p class="txtSeguros treintatres">Trabajamos con la aseguradora ASSA</p>
+                                <p class="txtSeguros treintacuatro">Desde el año 1999</p>
+                                <p class="txtSeguros treintacinco">Para saber mas de este seguro entre en contacto con
+                                    ASSA</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="segurosTabla col-md-6 col-lg-6">
+                        <a href="https://medismart.net/" target="blank" class="caja">
+                            <i class=""></i>
+                            <h2 class="tituloTablaSeguros">MediSmart</h2>
+                            <div class="seguro veintiseiss">Seguro</div>
+                            <div class="tipo">4</div>
+                            <div>
+                                <p class="txtSeguros treintaseis">Trabajamos con la aseguradora MediSmart</p>
+                                <p class="txtSeguros treintasiete">Desde el año 2000</p>
+                                <p class="txtSeguros treintaocho">Para saber mas de este seguro entre en contacto con
+                                    MediSmart</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hr">
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner parallax  -->
+
+    <section id="bannerParallax" class="container-fluid">
+        <div class="text-center" id="Bienestar">
+            <!-- <h1 class="text-white tituloEjercicio1">"El ejercicios es vida"</h1>
+            <h3 class="text-white tituloEjercicio2">Unas pocas horas de ejercicio al dia pueden cambiar tu vida,
+                suscribete para recibir mas informacion</h3> -->
+
+            <section class="container-fluid seccionInscripcion ">
+                <div class="container text-center">
+                    <h2 class=" text-white tituloEjercicio1 treintanueve">"El ejercicios es vida"
+                    </h2>
+                    <h3 class="text-white tituloEjercicio2 cuarenta">Unas pocas horas de ejercicio al dia pueden cambiar
+                        tu vida,
+                        suscribete para recibir mas informacion</h3>
+
+                    <form id="inscription">
+
+                        <input class="email mt-3" name="email" id="inscriptionTxt" type="email"
+                            placeholder="Tu email"><br>
+                        <input id="btnSend" type="button" value="Enviar" class="btnEnviar">
+                        <p id="mensajeAlert" class=""></p>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </section>
+
+
+    <!-- Section Cuatro -->
+    <section id="" class="container">
+        <div class="">
+            <div class="text-center contenedorSectionCuatro">
+                <h1 class="titulo4 cuarentauno">Bienestar</h1>
+                <h4 class="titulo4 cuarentados">Nos preocupamos por tu salud</h4>
+                <p class="txtBienestar cuarentatres">Estas diferentes practicas te pueden ayudar a hacer tu dia mas
+                    productivo,
+                    aprender algo nuevo y
+                    mejorar tu salud.</p>
+
+
+            </div>
+            <div class=" barraOpciones text-center">
+                <button class="tablinks botonOpcion cuarentacuatro" onclick="opciones(event,'yoga')">Yoga</button>
+                <button class="tablinks botonOpcion cuarentacinco" onclick="opciones(event,'pesas')">Pesas</button>
+                <button class="tablinks botonOpcion cuarentaseis" onclick="opciones(event,'crossfit')">Crossfit</button>
+                <button class="tablinks botonOpcion cuarentasiete"
+                    onclick="opciones(event,'capoeira')">Capoeira</button>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div id="yoga" class=" contenido pestanas">
+                        <p class="text-left txtYoga cuarentaocho">
+                            El yoga es una práctica que conecta el cuerpo, la respiración y la mente. Esta práctica
+                            utiliza
+                            posturas físicas, ejercicios de respiración y meditación para mejorar la salud general. El
+                            yoga
+                            se
+                            desarrolló como una práctica espiritual hace miles de años.
+                        </p>
+                        <img src="./img/yoga2.jpeg" alt="yoga" class="img-fluid pestanas">
+                    </div>
+
+                    <div id="pesas" class=" contenido pestanas">
+                        <p class="text-left txtPesas cuarentanueve">
+                            La noción de pesas hace referencia a diversas cuestiones. Por lo general, el término se
+                            asocia a
+                            un
+                            objeto de gran peso que se utiliza para realizar ejercicio físico o en competiciones
+                            deportivas.
+                            Si
+                            una persona desea ejercitar sus brazos para desarrollar los músculos de la zona, es probable
+                            que
+                            emplee pesas.
+                        </p>
+                        <img src="./img/pesas2.jpeg" alt="pesas" class="img-fluid pestanas">
+                    </div>
+
+                    <div id="crossfit" class=" contenido pestanas">
+                        <p class="text-left txtCross cincuenta">
+                            CrossFit se define como un sistema de entrenamiento de fuerza y acondicionamiento basado en
+                            ejercicios funcionales constantemente variados realizados a una alta intensidad.
+                        </p>
+                        <img src="./img/crosfit2.jpeg" alt="yoga" class="img-fluid pestanas">
+                    </div>
+
+                    <div id="capoeira" class="contenido pestanas">
+                        <p class="text-left txtCapo cincuentauno">
+                            El jogo de la capoeira es una lucha ficticia entre dos personas, donde se despliega una
+                            configuración de movimientos característica que abarca patadas, esquives, barridos, y una
+                            multiplicidad acrobacias y posiciones invertidas que se inscriben dentro de una estética
+                            particular.
+                        </p>
+                        <img src="./img/capoeira2.jpeg" alt="capoeira" class="img-fluid ">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hr">
+            <hr>
+        </div>
+    </section>
+
+    <!-- SECTION CINCO -->
+
+    <section id="covid" class="container">
+        <div class="infoCovid">
+            <h1 class="tituloCovid wow animate__animated animate__backInLeft animate__delay-300ms">COVID-19</h1>
+            <h4 class="tituloCovid wow animate__animated animate__backInLeft animate__delay-300ms cincuentados">Que es
+                COVID-19</h4>
+            <a class="cincuentatres btn btn-warning btn-lg mt-5 wow animate__animated animate__backInLeft animate__delay-300ms"
+                href="covid.html">Informacion</a>
+        </div>
+        <div class="hr">
+            <hr>
+        </div>
+    </section>
+
+
+    <!-- SECTION SEIS -->
+
+    <section id="marcas" class="container">
+        <div class="contenedorTituloSeis">
+            <h1 class="tituloMarcas text-center cincuentacuatro">Mejores marcas</h1>
+        </div>
+        <div class="row">
+            <a href="./marcas.html">
+                <div id="" class="contenedorMarcas container col-lg-12 text-center">
+                    <div class="itemMarca">
+                        <img class="lazyOwl img-fluid marcaImg wow animate__animated animate__pulse animate__infinite"
+                            src="./img/marca1.png" alt="marca1">
+                    </div>
+                    <div class="itemMarca">
+                        <img class="lazyOwl img-fluid marcaImg wow animate__animated animate__pulse animate__infinite"
+                            src="./img/marca2.png" alt="marca1">
+                    </div>
+                    <div class="itemMarca">
+                        <img class="lazyOwl img-fluid marcaImg wow animate__animated animate__pulse animate__infinite"
+                            src="./img/marca4.png" alt="marca1">
+                    </div>
+
+                    <div class="itemMarca">
+                        <img class="lazyOwl img-fluid marcaImg wow animate__animated animate__pulse animate__infinite"
+                            src="./img/marca8.png" alt="marca1">
+                    </div>
+                    <div class="itemMarca">
+                        <img class="lazyOwl img-fluid marcaImg wow animate__animated animate__pulse animate__infinite"
+                            src="./img/marca9.png" alt="marca1">
+                    </div>
+                    <div class="itemMarca">
+                        <img class="lazyOwl img-fluid marcaImg wow animate__animated animate__pulse animate__infinite"
+                            src="./img/marca10.png" alt="marca1">
+                    </div>
+
+                    <div class="itemMarca">
+                        <img class="lazyOwl img-fluid marcaImg wow animate__animated animate__pulse animate__infinite"
+                            src="./img/marca11.png" alt="marca1">
+                    </div>
+
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <!-- TESTIMONIOS DE CLIENTES  SECTION SIETE -->
+    <section class="container">
+        <div class="contenedorTituloSiete pt-5">
+            <h2 class="text-center tituloTestimonial cincuentacinco">Testimonios</h2>
+        </div>
+        <div class="col-lg-12">
+            <div id="testimonials_container" class=" pt-5">
+
+
+                <div class="testimonials owl-carousel owl-theme text-center">
+                    <div class="item">
+                        <img src="./img/persona1-modified.jpeg" alt="persona1" class="img-fluid personaTestimonio">
+                        <h3 class="textTestimonial">Amanda Garita</h3>
+                        <p class="parrafoTestimonial cincuentaseis">Los productos son increibles y el servico tambien.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <img src="./img/persona2-modified.jpeg" alt="persona1" class="img-fluid personaTestimonio">
+                        <h3 class="textTestimonial">Megan Schule</h3>
+                        <p class="parrafoTestimonial cincuentasiete">Muy feliz con la calidad de entrega de la farmacia.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <img src="./img/persona3-modified.jpeg" alt="persona1" class="img-fluid personaTestimonio">
+                        <h3 class="textTestimonial">Giulya Santos</h3>
+                        <p class="parrafoTestimonial cincuentaocho">Farmacia favorita, muy superior a la competencia.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <img src="./img/persona4-modified.jpeg" alt="persona1" class="img-fluid personaTestimonio">
+                        <h3 class="textTestimonial">Rufus Deutschland</h3>
+                        <p class="parrafoTestimonial cincuentanueve">Muy feliz con la atencion brindada. Muy agradecido.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <img src="./img/persona5-modified.jpeg" alt="persona1" class="img-fluid personaTestimonio">
+                        <h3 class="textTestimonial">Maria Cerny</h3>
+                        <p class="parrafoTestimonial sesenta">El website es incrible, muy facil de usar. Me
+                            encanta!</p>
+                    </div>
+                </div>
+                <h4 class="encuestaTitulo sesentauno">Llena nuestra encuesta</h4>
+                <a href="./encuesta.html" class="encuestaSubTitulo">
+                    <p class=" wow animate__animated animate__headShake animate__display-3s sesentados">Haz
+                        click
+                        aqui
+                        para dejar tu comentario</p>
+                </a>
+
+            </div>
+            <div class="hr">
+                <hr>
+            </div>
+    </section>
+
+
+    <!-- Seection Ocho -->
+
+
+    <section id="ubi" class="container">
+        <div class="row contenedorSectionOcho">
+            <div class="col-lg-6">
+                <h1 class="tituloUbi sesentatres">Ubicaciones</h1>
+                <div>
+                    <h4 class="txtUbi">Italia</h4>
+                    <p>Piazza di Trevi, 00187 Roma.</p>
+                </div>
+                <div>
+                    <h4 class="txtUbi">Francia</h4>
+                    <p>Champ de Mars, en el n. º 5 de la Avenue Anatole France, del 7. º arrondissement</p>
+                </div>
+                <div>
+                    <h4 class="txtUbi">Costa Rica</h4>
+                    <p>Avenidas Central y Segunda, contiguo a la Plaza de la Democracia y la Abolición del Ejército. San
+                        José, Costa Rica</p>
+                </div>
+            </div>
+            <divc class="col-lg-6">
+                <h3 class="tituloUbi sesentacuatro">Laboratorio</h3>
+                <iframe class="mapa"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.624478357071!2d12.483313005974772!3d41.90093247183921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6053278340d5%3A0xf676f1e1cc02bbb6!2sFontana%20di%20Trevi!5e0!3m2!1ses!2scr!4v1681089194481!5m2!1ses!2scr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="hr">
+            <hr>
+        </div>
+    </section>
+
+
+    <!-- Section Nueve -->
+
+
+    <section class="sectionForm d-flex justify-content-center align-items-center py-4" id="Contact">
+        <div class="containerForm">
+            <h2 class="text-center tituloContacto sesentacinco">Contáctenos</h2>
+            <form id="form">
+                <div class="formRow">
+                    <div class="colForm">
+                        <div class="inputBox">
+                            <input id="nombreTxt" type="text" name="name" required="required">
+                            <span class="text sesentaseis">Nombre</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+
+                    <div class="colForm">
+                        <div class="inputBox">
+                            <input id="apellidoTxt" type="text" name="lastname" required="required">
+                            <span class="text sesentasiete">Apellido</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="formRow">
+                    <div class="colForm">
+                        <div class="inputBox">
+                            <input id="emailTxt" type="text" name="email" required="required">
+                            <span class="text sesentaocho">Email</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+
+                    <div class="colForm">
+                        <div class="inputBox">
+                            <input id="numberTxt" type="number" name="phone" required="required">
+                            <span class="text sesentanueve">Teléfono</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="formRow">
+                    <div class="colForm">
+                        <div class="inputBox textarea">
+                            <textarea id="mensajeTxt" name="message" required="required"></textarea>
+                            <span class="text setenta">Comentario</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="formRow">
+                    <div class="colForm">
+                        <p id="mensajeAlert"></p>
+                        <input id="btnSendd" type="submit" value="Enviar">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <a class="go-top" href="#Inicio" title="Ir al inicio" data-scroll>
+        <img src="./img/flecha.png" class="img-fluid ftoFlecha" alt="Ir arriba">
+    </a>
+
+
+    <footer class="container-fluid text-center footerSite">
+        <div class="row">
+            <h4 class="derechosReservados col-lg-12 setentauno">Derechos reservados</h4>
+            <h5 class="derechosReservados col-lg-12">2023</h5>
+        </div>
+    </footer>
+
+
+    <!-- CARGA JS SCRIPT TESTIMONIAL -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    <script src="js/wow.min.js"></script>
+
+    <!-- activa los efectos de animacion -->
+    <script>
+        new WOW().init();
+    </script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!-- programación del form suscripcion -->
+    <script src="./js/formSuscrip.js"></script>
+
+    <!-- programacion JS -->
+    <script src="./js/web.js"></script>
+    <script src="./js/idioma.js"></script>
+
+    <!-- libreria desplegables -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+</body>
+
+</html>

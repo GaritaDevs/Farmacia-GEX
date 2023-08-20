@@ -1,0 +1,102 @@
+.fondoNav {
+    background-color: rgb(227, 227, 227);
+}
+
+.logo {
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 150, 184);
+    font-weight: bolder;
+}
+
+.logo:hover {
+    color: rgb(0, 104, 174);
+}
+
+.navText {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 105, 185);
+}
+
+.nav-item {
+    margin: 0px 10px;
+}
+
+.nav-item :hover {
+    color: #ffffff !important;
+    background-color: rgb(0, 150, 184) !important;
+    transition: 0.3s ease-in;
+    border-radius: 24px;
+    padding: 10px 10px 10px 10px;
+}
+
+.subMenu {
+    background-color: #009cd9;
+    font-style: none;
+    text-align: center;
+}
+
+.subMenuText {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* ----------------------------------------------------------BODY----------------------------------------- */
+
+.segurosContenedor {
+    margin-top: 100px;
+
+}
+
+.contenedorTituloSeguro {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 63, 78);
+    font-weight: bolder;
+    margin-bottom: 51px;
+}
+
+select {
+    background-color: #009cd9;
+    color: #fff;
+}
+
+input {
+    background-color: #009cd9;
+    color: #fff;
+}
+
+
+.tituloSeguros {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 63, 78);
+    font-weight: bolder;
+    font-size: 25px
+}
+
+.txtTotal {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(214, 9, 9, 0.781);
+    font-weight: bolder;
+    font-size: 25px
+}
+
+
+.logoSeguro {
+    width: 150px;
+    height: 150px;
+}
+
+
+/* -----------------------------------------------------------FOOTER---------------------------------------------------- */
+
+.footerSite {
+    margin-top: 21px;
+    padding: 21px;
+    background-color: #005679;
+}
+
+.derechosReservados {
+    color: #fff;
+    margin: 0%;
+}

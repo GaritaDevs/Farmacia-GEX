@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <link rel="icon" href="./img/favicon.ico">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/6df3345e67.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="./css/marcas.css" rel="stylesheet">
+    <link href="./css/reglas.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Comienza la pagina WEB -->
+
+    <header id="bannerMarcas">
+        <div>
+            <div class="contenedorTitulosMarcas">
+
+                <div class="container">
+                    <div>
+                        <h1 class="tituloMarcas wow animate__animated animate__backInLeft animate__delay-300ms">Nuestras
+                            marcas</h1>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <section class="row">
+                                <div class="col-lg-12">
+                                    <p class="txtMarcas ">
+                                        Nuestras marcas son de gran calidad, en esta seccion puedes ver
+                                        las marcas con
+                                        las que trabajamos. Todos nuestros productos tienen garantia, en caso de algun
+                                        problema puedes comunicarte con nosotros y te ayudaremos
+                                    </p>
+
+                                </div>
+                            </section>
+                            <section class="row">
+                                <div class="col-lg-12">
+                                    <select class="form-select selectMarcas" id="pharmacy">
+                                        <option value="" selected disabled>Seleccione una marca</option>
+                                        <option value="1">Soap Glory</option>
+                                        <option value="2">Depend</option>
+                                        <option value="3">L'OREAL</option>
+                                        <option value="4">Move Free</option>
+                                        <option value="5">LA ROCHE-POSAY</option>
+                                        <option value="6">ALKA-SELTZER</option>
+                                        <option value="7">BAYER</option>
+
+                                    </select>
+                                </div>
+
+                            </section>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6 mb-5 imgContenedor">
+                            <div class="d-flex justify-content-center mb-2" id="output-img"></div>
+                            <div class="text-center fst-italic" id="output-txt"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </header>
+
+
+    <nav class="navbar navbar-expand-lg fixed-top fondoNav">
+        <div class="container">
+            <a class="navbar-brand logo" href="web.html">Farmacia GEX
+            </a>
+
+            <!-- MENU HAMBURGUESA BOOSTRAP -->
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mx-auto mb-2 mb-md-0 text-center">
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link optmenu navText" aria-current="page" href="./web.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link optmenu navText" aria-current="page"
+                            href="./masInformacion.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link navText" aria-current="page" href="./app.html">Productos</a>
+                    </li>
+                    <!-- SUBMENU -->
+                    <li class="nav-item dropdown">
+                        <a data-scroll class="nav-link dropdown-toggle  navText" aria-current="page" href="#"
+                            id="desplegable1" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">Info</a>
+                        <div class="dropdown-menu text-left subMenu" aria-labelledby="desplegable1">
+                            <a class="dropdowm-item subMenuText" href="./seguros.html">Seguros</a><br>
+                            <a class="dropdowm-item subMenuText" href="./web.html">Bienestar</a><br>
+                            <a class="dropdowm-item subMenuText" href="./covid.html">COVID-19</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link navText" aria-current="page" href="./marcas.html">Marcas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link navText" aria-current="page" href="./web.html">Ubicacion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link navText" aria-current="page" href="./web.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+    <!-- BOOSTRAP -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    <!-- programacion JS Propia -->
+    <script src="./js/marcas.js"></script>
+
+    <script src="js/wow.min.js"></script>
+
+    <!-- activa los efectos de animacion -->
+    <script>
+        new WOW().init();
+    </script>
+
+    <!-- libreria desplegables SWALFIRE -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+
+
+</body>
+
+</html>

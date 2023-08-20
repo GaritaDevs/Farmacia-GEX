@@ -1,0 +1,649 @@
+.textCarusel1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    position: absolute;
+    z-index: 10;
+    width: 550px;
+    height: 370px;
+    top: 50%;
+    left: 20%;
+    margin: -110px 0 0 -100px;
+    padding: 45px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    z-index: 100
+}
+
+.tituloCarusel1 {
+    font-weight: bolder;
+    color: rgb(1, 65, 79);
+    font-size: 51px;
+    ;
+}
+
+.tituloCarusel2 {
+    font-weight: bolder;
+}
+
+.textCarusel2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    position: absolute;
+    z-index: 10;
+    width: 550px;
+    height: 370px;
+    top: 50%;
+    left: 60%;
+    margin: -110px 0 0 -100px;
+    padding: 45px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    z-index: 100;
+    text-align: center;
+}
+
+.textCarusel3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    position: absolute;
+    z-index: 10;
+    width: 550px;
+    height: 370px;
+    top: 31%;
+    left: 17%;
+    margin: -110px 0 0 -100px;
+    padding: 45px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    z-index: 100;
+    text-align: center;
+}
+
+.tituloCarusel3 {
+    color: #fff;
+}
+
+/* ------------------------------------------------------NAV------------------------------------------- */
+
+.fondoNav {
+    background-color: rgb(227, 227, 227);
+}
+
+.logo {
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 150, 184);
+    font-weight: bolder;
+}
+
+.logo:hover {
+    color: rgb(0, 104, 174);
+}
+
+.navText {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 105, 185);
+}
+
+.nav-item {
+    margin: 0px 10px;
+}
+
+.nav-item :hover {
+    color: #ffffff !important;
+    background-color: rgb(0, 150, 184) !important;
+    transition: 0.3s ease-in;
+    border-radius: 24px;
+    padding: 10px 10px 10px 10px;
+}
+
+.subMenu {
+    background-color: #009cd9;
+    font-style: none;
+    text-align: center;
+}
+
+.subMenuText {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.bandera {
+    text-decoration: none;
+    margin: 0px 5px;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+/* ----------------------------------------------------SECTION UNO ----------------------------------------- */
+
+.contenedorSectionUno {
+    margin: 70px;
+}
+
+.titulo1 {
+    font-weight: bolder;
+    color: rgb(0, 84, 132);
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 19px;
+    font-family: 'Cormorant Garamond', serif;
+
+}
+
+.sobreNosotros {
+    border-radius: 3%;
+}
+
+
+.hr {
+    margin: 40px 0px 30px 0px;
+}
+
+/* -------------------------------------SECTION DOS----------------------------------------------- */
+#Productos {
+    padding: 50px;
+    background-color: rgb(249, 233, 58);
+}
+
+.titulo2 {
+    font-weight: bolder;
+    color: rgb(0, 84, 132);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.txtProductos {
+    margin: 37px;
+    font-size: 19px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.botonProductos {
+    margin: 30px;
+}
+
+/* -----------------------------------SECTION TRES---------------------------------------------- */
+
+.contenedorSectionTres {
+    margin: 70px;
+}
+
+.cotizar {
+    text-decoration: none;
+    font-weight: bolder;
+    color: red;
+    font-size: 21px;
+}
+
+.tituloSectionTres {
+    margin: 20px;
+}
+
+.titulo3 {
+    font-weight: bolder;
+    color: rgb(0, 84, 132);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.segurosTabla {
+    padding: 47px;
+    border: 1px solid rgb(0, 115, 191);
+    /* background-color: rgb(0, 134, 134); */
+}
+
+.segurosTabla:hover {
+    /* box-shadow: inset 0px 0px 1000px rgb(0, 103, 131); */
+    background-color: rgb(0, 166, 172);
+    margin-top: -40px;
+    z-index: 10;
+    border: none;
+}
+
+.caja {
+    text-decoration: none;
+}
+
+.tituloTablaSeguros {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(0, 84, 132);
+}
+
+
+
+.seguro {
+    font-size: 21px;
+    font-weight: bold;
+    color: #333c4d;
+}
+
+.tipo {
+
+    font-size: 70px;
+    font-weight: bolder;
+    color: #333c4d;
+}
+
+.txtSeguros {
+    color: #222;
+    font-size: 19px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
+/* ------------------------------------------------------BANNER PARALLAX-------------------------------------------------- */
+
+#bannerParallax {
+
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 49vh;
+    background-position: center;
+    background-image: url(../img/ejercicioBannerParallax.jpg);
+    /* background-color: rgb(42, 121, 190); */
+    background-blend-mode: luminosity;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+    margin-top: 50px;
+
+
+}
+
+.tituloEjercicio1 {
+    padding-top: 35px;
+}
+
+.alertaRoja {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 22px;
+}
+
+.alertaVerde {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 22px;
+}
+
+
+.btnEnviar {
+    margin: 11px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #0097c4;
+    font-weight: 400;
+}
+
+
+/* ------------------------------------------------------SECTION CUATRO------------------------------------- */
+
+.contenedorSectionCuatro {
+    margin: 70px;
+}
+
+.titulo4 {
+    font-weight: bolder;
+    color: rgb(0, 84, 132);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.txtBienestar {
+    margin: 37px;
+    font-size: 19px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.barraOpciones {
+    overflow: hidden;
+
+
+}
+
+.botonOpcion {
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.barraOpciones button {
+    background-color: inherit;
+    /* float: left; */
+    color: #000;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.barraOpciones button:hover {
+    background-color: rgb(0, 176, 224);
+    color: #fff;
+}
+
+.barraOpciones button.active {
+    background-color: rgb(0, 110, 153);
+    color: #fff;
+}
+
+.contenido {
+    display: none;
+    padding: 6px 12px;
+    border: 2px solid #eee;
+    border-top: none;
+    background: #eee;
+}
+
+
+/* --------------------------------------------------------SECTION CINCO--------------------------------------------- */
+
+#covid {
+    background-image: url(../img/covidFto4.svg);
+    background-position: center;
+    background-size: cover;
+    /* height: 100vh; */
+}
+
+.tituloCovid {
+    font-weight: bolder;
+    color: rgb(0, 84, 132);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.infoCovid {
+    padding: 250px 0px 200px 0px;
+}
+
+
+
+/* ---------------------------------------------------------SECTION SEIS--------------------------------------------------- */
+
+.contenedorTituloSeis {
+    margin: 71px 0px 0px 51px;
+}
+
+.tituloMarcas {
+    font-weight: bolder;
+    color: rgb(0, 84, 132);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.marcaImg {
+
+    width: 91px;
+    height: 90px;
+    border-radius: 100%;
+}
+
+.contenedorMarcas {
+    display: flex;
+}
+
+.itemMarca {
+    margin: 21px 51px;
+}
+
+/* ------------------------------------------------------SECTION SIETE TESTIMONIOS-------------------------------------- */
+.tituloTestimonial {
+    font-weight: bolder;
+    color: rgb(0, 84, 132);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.testimonials.owl-carousel .owl-item img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.testimonials_container {
+    display: flex;
+    /* margin: 0 auto; */
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.item {
+    background-color: #eee;
+    border: 3px solid #005679;
+    padding: 15px;
+    object-fit: cover;
+    cursor: move;
+}
+
+.textTestimonial {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin: 15px 0;
+    line-height: 1.3;
+    color: #272626;
+}
+
+.parrafoTestimonial {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    line-height: 1.3;
+    color: #000;
+}
+
+
+.owl-item {
+    text-align: center;
+}
+
+.encuestaTitulo {
+    margin-top: 21px;
+    font-weight: bolder;
+    color: rgb(0, 84, 132);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.encuestaSubTitulo {
+    text-decoration: none;
+    color: rgba(255, 7, 7, 0.929);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.encuestaSubTitulo:hover {
+    text-decoration: none;
+    color: rgba(141, 2, 2, 0.929);
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* --------------------------------------------------------SECTION OCHO------------------------------------------ */
+
+.contenedorSectionOcho {
+    margin: 51px;
+}
+
+.tituloUbi {
+    margin: 21px 0px;
+    font-weight: bolder;
+    color: rgb(0, 84, 132);
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* --------------------------------------------------------SECTION NUEVE----------------------------------------- */
+
+.contenedorSectionNueve {
+    margin: 70px;
+}
+
+.tituloContacto {
+    color: rgb(0, 84, 132);
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sectionForm {
+    background-color: #f8f8f8;
+}
+
+.sectionForm .containerForm {
+    width: 80%;
+    padding: 20px;
+}
+
+.sectionForm .containerForm .formRow {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.sectionForm .containerForm .formRow .colForm {
+    position: relative;
+    width: 100%;
+    padding: 0px 10px;
+    margin: 30px 0px 10px;
+    transition: 0.5s;
+}
+
+.sectionForm .containerForm .formRow .colForm .inputBox {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    color: #000;
+    font-weight: bold;
+}
+
+.sectionForm .containerForm .formRow .colForm .inputBox input,
+.sectionForm .containerForm .formRow .colForm .inputBox.textarea textarea {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    padding: 0px 10px;
+    z-index: 1;
+    color: #000;
+}
+
+.sectionForm .containerForm .formRow .colForm .inputBox .text {
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 40px;
+    font-size: 18px;
+    padding: 0px 10px;
+    display: block;
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.sectionForm .containerForm .formRow .colForm .inputBox input:focus+.text,
+.sectionForm .containerForm .formRow .colForm .inputBox input:valid+.text {
+    left: -10px;
+    top: -35px;
+}
+
+.sectionForm .containerForm .formRow .colForm .inputBox .line {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    transition: 0.5s;
+    border-radius: 2px;
+    pointer-events: none;
+    background-color: #006dbc;
+}
+
+.sectionForm .containerForm .formRow .colForm .inputBox input:focus~.line,
+.sectionForm .containerForm .formRow .colForm .inputBox input:valid~.line {
+    height: 100%;
+}
+
+.sectionForm .containerForm .formRow .colForm .inputBox.textarea {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding: 10px 0px;
+}
+
+.sectionForm .containerForm .formRow .colForm .inputBox.textarea textarea {
+    height: 100px;
+    resize: none;
+}
+
+.sectionForm .containerForm .formRow .colForm .inputBox textarea:focus+.text,
+.sectionForm .containerForm .formRow .colForm .inputBox textarea:valid+.text {
+    left: -10px;
+    top: -35px;
+}
+
+.sectionForm .containerForm .formRow .colForm .inputBox textarea:focus~.line,
+.sectionForm .containerForm .formRow .colForm .inputBox textarea:valid~.line {
+    height: 100%;
+}
+
+input[type="submit"] {
+    border: none;
+    padding: 7px 35px;
+    cursor: pointer;
+    outline: none;
+    background-color: #25b3ff;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 2px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* -----------------------------------------------------GO TOP-------------------------------------------------------- */
+
+
+.go-top {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    text-decoration: none;
+    padding: 1em;
+    border-radius: 100%;
+}
+
+.ftoFlecha {
+    width: 35px;
+    height: 33px;
+    background-color: #005679;
+    border-radius: 100%;
+}
+
+
+
+/* -----------------------------------------------------Footer-------------------------------------------------------- */
+
+.footerSite {
+    margin-top: 21px;
+    padding: 21px;
+    background-color: #005679;
+}
+
+.derechosReservados {
+    color: #fff;
+    margin: 0%;
+}

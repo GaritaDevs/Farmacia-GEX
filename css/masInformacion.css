@@ -1,0 +1,130 @@
+.fondoNav {
+    background-color: rgb(227, 227, 227);
+}
+
+.logo {
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 150, 184);
+    font-weight: bolder;
+}
+
+.logo:hover {
+    color: rgb(0, 104, 174);
+}
+
+.navText {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 105, 185);
+}
+
+.nav-item {
+    margin: 0px 10px;
+}
+
+.nav-item :hover {
+    color: #ffffff !important;
+    background-color: rgb(0, 150, 184) !important;
+    transition: 0.3s ease-in;
+    border-radius: 24px;
+    padding: 10px 10px 10px 10px;
+}
+
+.subMenu {
+    background-color: #009cd9;
+    font-style: none;
+    text-align: center;
+}
+
+.subMenuText {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/* ---------------------------------------------------bannerINFO---------------------------------------------------------- */
+
+
+#bannerInfo {
+    background-image: url(../img/sobreNosotros1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.letrasBanner {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    position: absolute;
+    z-index: 10;
+    width: 750px;
+    height: 370px;
+    top: 29%;
+    left: 31%;
+    margin: -110px 0 0 -100px;
+    padding: 45px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    z-index: 100;
+    text-align: center;
+}
+
+.tituloBanner {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 63, 78);
+    font-weight: bolder;
+    font-size: 51px;
+}
+
+.subTituloBanner {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+
+
+
+/* ------------------------------------------------Contenedor ftos-------------------------------------------------------- */
+
+
+.ftosContenedor {
+    margin-top: 51px;
+}
+
+
+.imgNosotros {
+    width: 360px;
+    height: 250px;
+}
+
+
+.tituloGaleria {
+    margin: 37px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 108, 132);
+    font-weight: bolder;
+}
+
+h3 {
+
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 108, 132);
+    font-weight: bolder;
+}
+
+
+/* -----------------------------------------------------------FOOTER---------------------------------------------------- */
+
+.footerSite {
+    margin-top: 21px;
+    padding: 21px;
+    background-color: #005679;
+}
+
+.derechosReservados {
+    color: #fff;
+    margin: 0%;
+}
